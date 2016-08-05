@@ -94,5 +94,4 @@ public abstract class BaseFragment<V, T extends BasePresenter<V>> extends Fragme
         super.onDetach();
         mPresenter.dettachView();
     }
-
 }
