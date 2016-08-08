@@ -13,4 +13,9 @@ public class TestPresenter extends BasePresenter<ITest> {
         this.attachView(main);
         iview = getView();
     }
+
+
+    public void getData() {
+        iview.showData("hello , i'm mvp");
+    }
 }

@@ -24,4 +24,9 @@ public class TestActivity extends BaseActivity<ITest, TestPresenter> implements 
     protected TestPresenter createPresenter() {
         return new TestPresenter(this);
     }
+
+    @Override
+    public void showData(String data) {
+        showToast(data);
+    }
 }
