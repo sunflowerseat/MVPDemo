@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import com.fancy.mvpdemo.R;
 import com.fancy.mvpdemo.act_interface.home.IFancy;
 import com.fancy.mvpdemo.act_presenter.home.FancyPresenter;
-import com.fancy.mvpdemo.activity.base.BaseFragment;
+import com.fancy.mvpdemo.fragment.base.BaseFragment;
 
 /**
  * create by 肖芳.
