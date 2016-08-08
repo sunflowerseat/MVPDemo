@@ -27,6 +27,7 @@ public abstract class BaseActivity<V,T extends BasePresenter<V>> extends AppComp
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        mPresenter = createPresenter();
     }
 
     protected abstract T createPresenter();
