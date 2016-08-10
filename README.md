@@ -9,3 +9,4 @@ AS根目录\plugins\android\lib\templates\activities
 下，重启studio即可使用
 
 这种MVP模板文件都不具有通用性，需要按照自己的格式进行一定的修改，仅供参考
+注意： 假设程序包名为 a.b.c 不要在a.b.c这个包下面新建Activity、Fragment. 除了这个包，其他的均可以
